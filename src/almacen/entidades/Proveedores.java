@@ -18,6 +18,19 @@ public class Proveedores {
     private Producto producto;
     private String nombre;
 
+    public Proveedores() {
+    }
+
+    public Proveedores(Long telefono, Long nit, String direccion, Double cantidad, Producto producto, String nombre) {
+        this.telefono = telefono;
+        this.nit = nit;
+        this.direccion = direccion;
+        this.cantidad = cantidad;
+        this.producto = producto;
+        this.nombre = nombre;
+    }
+
+    
     public Long getTelefono() {
         return telefono;
     }
