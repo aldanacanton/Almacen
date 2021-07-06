@@ -1,7 +1,7 @@
 
-package almacenEntidades;
+package almacen.entidades;
 
-import almacen.entidades.Producto;
+
 
 public class Ventas {
     private Producto profucto;
