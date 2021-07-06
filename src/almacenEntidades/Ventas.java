@@ -4,25 +4,25 @@ package almacenEntidades;
 import almacen.entidades.Producto;
 
 public class Ventas {
-    private Producto profucto;
+    private Producto producto;
     private int precio;
-    private int caantidad;
+    private int cantidad;
 
     public Ventas() {
     }
 
-    public Ventas(Producto profucto, int precio, int caantidad) {
-        this.profucto = profucto;
+    public Ventas(Producto producto, int precio, int cantidad) {
+        this.producto = producto;
         this.precio = precio;
-        this.caantidad = caantidad;
+        this.cantidad = cantidad;
     }
 
     public Producto getProfucto() {
-        return profucto;
+        return producto;
     }
 
     public void setProfucto(Producto profucto) {
-        this.profucto = profucto;
+        this.producto = profucto;
     }
 
     public int getPrecio() {
@@ -34,16 +34,16 @@ public class Ventas {
     }
 
     public int getCaantidad() {
-        return caantidad;
+        return cantidad;
     }
 
-    public void setCaantidad(int caantidad) {
-        this.caantidad = caantidad;
+    public void setCaantidad(int cantidad) {
+        this.cantidad = cantidad;
     }
 
     @Override
     public String toString() {
-        return "Ventas{" + "profucto=" + profucto + ", precio=" + precio + ", caantidad=" + caantidad + '}';
+        return "Ventas{" + "profucto=" + producto + ", precio=" + precio + ", cantidad=" + cantidad + '}';
     }
     
     
